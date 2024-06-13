@@ -52,4 +52,4 @@ bun.lockb
 .nx/cache
 
 # Environment Files
-.env
+.env*

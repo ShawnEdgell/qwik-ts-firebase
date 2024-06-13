@@ -21,6 +21,6 @@
     },
     "typeRoots": ["./node_modules/@types", "./types"]
   },
-  "files": ["./.eslintrc.cjs"],
+  "files": ["./.eslintrc.cjs", "./tailwind.config.js"],
   "include": ["src", "./*.d.ts", "./*.config.ts"]
 }
