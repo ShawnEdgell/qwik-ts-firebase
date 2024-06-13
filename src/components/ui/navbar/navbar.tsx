@@ -18,9 +18,9 @@ export const Navbar = component$(() => {
 
   return (
     <div
-      class={`fixed top-0 z-10 w-full bg-red-500 px-4 py-6 transition-transform duration-300 ${showNav.value ? "translate-y-0" : "-translate-y-full"}`}
+      class={`fixed top-0 z-10 w-full bg-black px-4 py-6 transition-transform duration-300 ${showNav.value ? "translate-y-0" : "-translate-y-full"}`}
     >
-      Navigation
+      <p class="text-lg font-bold text-white">Navigation</p>
     </div>
   );
 });

@@ -89,6 +89,7 @@ export default {
     },
   },
   plugins: [
+    require("@tailwindcss/typography"),
     require("tailwindcss-animate"),
     plugin(function ({ addUtilities }) {
       addUtilities({
