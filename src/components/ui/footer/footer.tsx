@@ -3,7 +3,7 @@ import { Link } from "@builder.io/qwik-city";
 
 export const Footer = component$(() => {
   return (
-    <footer class="flex h-64 flex-col items-center justify-center space-y-6 bg-red-500 ">
+    <footer class="flex h-64 flex-col items-center justify-center space-y-6 bg-red-500 p-4 ">
       <nav class="flex space-x-6">
         <Link href="/">Home</Link>
         <Link href="/">About</Link>
