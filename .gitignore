@@ -53,3 +53,6 @@ bun.lockb
 
 # Environment Files
 .env*
+
+# Vercel
+.vercel
